@@ -11,11 +11,35 @@
     <script src="https://kit.fontawesome.com/7f3b70ad90.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h3 style="text-align: center;">Calculator</h3>
+    <!-- <h3 style="text-align: center;">Calculator</h3> -->
     <div class="container">
+        <h1 id="calc--input">0</h1>
+        <button class="btn" onclick="buttonClick(1)">1</button>
+        <button class="btn" onclick="buttonClick(2)">2</button>
+        <button class="btn" onclick="buttonClick(3)">3</button>
+        <button class="btn btn--operator" onclick="buttonClick('+')">+</button>
+        <button class="btn" onclick="buttonClick(4)">4</button>
+        <button class="btn" onclick="buttonClick(5)">5</button>
+        <button class="btn" onclick="buttonClick(6)">6</button>
+        <button class="btn btn--operator" onclick="buttonClick('-')">-</button>
+        <button class="btn" onclick="buttonClick(7)">7</button>
+        <button class="btn" onclick="buttonClick(8)">8</button>
+        <button class="btn" onclick="buttonClick(9)">9</button>
+        <button class="btn btn--operator" onclick="buttonClick('*')">*</button>
+        <button class="btn" onclick="buttonClick('.')">.</button>
+        <button class="btn" onclick="buttonClick(0)">0</button>
+        <button class="btn" id="clear">C</button>
+        <button class="btn btn--operator" onclick="buttonClick('/')">/</button>
+        <button class="btn" id="equal">=</button>
+      </div>
+      
+      <script src="script.js"></script>
+    <!-- <div class="container">
         <div class="row1">
         <div class="row">
             <div class="col" id="entry"></div>
+            // <div id="display"></div> //
+            <input type="text" id="calc-input">
         </div>
         <div class="row align-items-center">
             <div class="col my-auto" id="1"><p>1</p></div>
@@ -44,11 +68,11 @@
         <div class="row">
             <div class="col" id="clear"><p>CE</p></div>
             <div class="col" id="equal"><p>=</p></div>
-            <!-- <div class="col" id="divide"><p></p></div>
-            <div class="col" id="divide"><p>/</p></div> -->
+            // <div class="col" id="divide"><p></p></div>
+            <div class="col" id="divide"><p>/</p></div> //
         </div>
 
-        <!-- <div class="box" id="entry"></div>
+        // <div class="box" id="entry"></div>
         <div class="box" id="1"></div>
         <div class="box" id="2"></div>
         <div class="box" id="3"></div>
@@ -63,9 +87,12 @@
         <div class="box" id="minus"></div>
         <div class="box" id="multiply"></div>
         <div class="box" id="divide"></div>
-        <div class="box" id="clear"></div> -->
+        <div class="box" id="clear"></div> //
     </div>
     </div>
-    <br><br><br>
+    <br><br><br> -->
+
+    <script src="main.js"></script>
+
 </body>
 </html>
